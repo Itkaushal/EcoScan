@@ -37,7 +37,8 @@ fun ProfileScreen(
     onToggleNotifications: (Boolean) -> Unit,
     onToggleDarkMode: (Boolean) -> Unit,
     onUpdateProfile: (String, String, String?) -> Unit,
-    onHelpSupportClick: () -> Unit
+    onHelpSupportClick: () -> Unit,
+    onAboutAppClick: () -> Unit
 ) {
     if (!isLoggedIn) {
         Box(modifier = Modifier.fillMaxSize(), contentAlignment = Alignment.Center) {
@@ -55,7 +56,8 @@ fun ProfileScreen(
             onLogout = onLogout,
             onToggleNotifications = onToggleNotifications,
             onToggleDarkMode = onToggleDarkMode,
-            onHelpSupportClick = onHelpSupportClick
+            onHelpSupportClick = onHelpSupportClick,
+            onAboutAppClick = onAboutAppClick
         )
     }
 }
@@ -72,7 +74,8 @@ fun ProfileContent(
     onLogout: () -> Unit,
     onToggleNotifications: (Boolean) -> Unit,
     onToggleDarkMode: (Boolean) -> Unit,
-    onHelpSupportClick: () -> Unit
+    onHelpSupportClick: () -> Unit,
+    onAboutAppClick: () -> Unit
 ) {
     Column(
         modifier = Modifier
@@ -173,7 +176,7 @@ fun ProfileContent(
         SettingsClickItem(
             label = "About EcoScan",
             icon = Icons.Default.Info,
-            onClick = {}
+            onClick = onAboutAppClick
         )
 
         Spacer(modifier = Modifier.height(24.dp))

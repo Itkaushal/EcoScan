@@ -61,6 +61,7 @@ import com.kaushalprajapati.ecoscan.ui.screens.HomeScreen
 import com.kaushalprajapati.ecoscan.ui.screens.NotFoundScreen
 import com.kaushalprajapati.ecoscan.ui.screens.ResultScreen
 import com.kaushalprajapati.ecoscan.ui.screens.ScannerScreen
+import com.kaushalprajapati.ecoscan.ui.screens.profile.AboutScreen
 import com.kaushalprajapati.ecoscan.ui.screens.profile.AuthViewModel
 import com.kaushalprajapati.ecoscan.ui.screens.profile.HelpSupportScreen
 import com.kaushalprajapati.ecoscan.ui.screens.profile.ProfileScreen
@@ -208,8 +209,13 @@ fun EcoScanNavGraph(viewModel: ScanViewModel) {
                     onToggleNotifications = { authViewModel.toggleNotifications(it) },
                     onToggleDarkMode = { authViewModel.toggleDarkMode(it) },
                     onUpdateProfile = { n, e, p -> authViewModel.updateProfile(n, e, p) },
-                    onHelpSupportClick = { navController.navigate(Destination.HelpSupport.route) }
+                    onHelpSupportClick = { navController.navigate(Destination.HelpSupport.route) },
+                    onAboutAppClick = {navController.navigate(Destination.About.route)}
                 )
+            }
+
+            composable(Destination.About.route){
+                AboutScreen(onBack = { navController.popBackStack() })
             }
 
             composable(Destination.HelpSupport.route) {
