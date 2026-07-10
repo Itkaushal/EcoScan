@@ -1,0 +1,127 @@
+{
+  "project_info": {
+    "project_number": "965840160940",
+    "firebase_url": "https://exam-mitra-5c5b6-default-rtdb.firebaseio.com",
+    "project_id": "exam-mitra-5c5b6",
+    "storage_bucket": "exam-mitra-5c5b6.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:965840160940:android:a63f7b8e20388c2d783709",
+        "android_client_info": {
+          "package_name": "com.example.exammitrabykaushal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "965840160940-r9ihuqhbg661sq9vuhe7prns68ki6b23.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.exammitrabykaushal",
+            "certificate_hash": "26412f44a39a6aced8b6336592db512cdccf97b9"
+          }
+        },
+        {
+          "client_id": "965840160940-4a41bs91b9pq70kpf86o3nuichgelh8n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA6J9eWsWdQaUYPvdH2PW1UqvpVzlBI4tQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "965840160940-4a41bs91b9pq70kpf86o3nuichgelh8n.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "965840160940-16s0r0bcl2mn0en85hhgt38qhgvuknh2.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.kaushlendra.examMitra"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:965840160940:android:979dab48851da3e7783709",
+        "android_client_info": {
+          "package_name": "com.kaushalprajapati.ecoscan"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "965840160940-4a41bs91b9pq70kpf86o3nuichgelh8n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA6J9eWsWdQaUYPvdH2PW1UqvpVzlBI4tQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "965840160940-4a41bs91b9pq70kpf86o3nuichgelh8n.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "965840160940-16s0r0bcl2mn0en85hhgt38qhgvuknh2.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.kaushlendra.examMitra"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:965840160940:android:9a92c93f618ad7df783709",
+        "android_client_info": {
+          "package_name": "com.kaushlendra.exam_mitra"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "965840160940-4a41bs91b9pq70kpf86o3nuichgelh8n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA6J9eWsWdQaUYPvdH2PW1UqvpVzlBI4tQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "965840160940-4a41bs91b9pq70kpf86o3nuichgelh8n.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "965840160940-16s0r0bcl2mn0en85hhgt38qhgvuknh2.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.kaushlendra.examMitra"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
